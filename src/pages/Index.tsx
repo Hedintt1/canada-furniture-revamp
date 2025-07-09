@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -110,14 +111,9 @@ const Index = () => {
               atlantic<span className="font-semibold text-lime-600 ml-1">business</span><br />
               <span className="text-sm uppercase tracking-[0.2em] text-gray-500">interiors</span>
             </div>
-            <div className="flex items-center space-x-6">
-              <a href="/solutions" className="text-gray-600 hover:text-lime-600 font-medium transition-colors">
-                Solutions
-              </a>
-              <Button className="bg-lime-600 hover:bg-lime-700 text-white px-8 py-3 rounded-full font-medium">
-                Get Quote
-              </Button>
-            </div>
+            <Button className="bg-lime-600 hover:bg-lime-700 text-white px-8 py-3 rounded-full font-medium">
+              Get Quote
+            </Button>
           </div>
         </div>
       </nav>
@@ -152,15 +148,13 @@ const Index = () => {
                     Get Quote
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
-                  <a href="/solutions">
-                    <Button 
-                      variant="ghost" 
-                      size="lg"
-                      className="text-gray-700 hover:text-lime-600 px-6 py-4 text-lg font-medium"
-                    >
-                      View Solutions
-                    </Button>
-                  </a>
+                  <Button 
+                    variant="ghost" 
+                    size="lg"
+                    className="text-gray-700 hover:text-lime-600 px-6 py-4 text-lg font-medium"
+                  >
+                    Learn More
+                  </Button>
                 </div>
               </div>
             </div>
